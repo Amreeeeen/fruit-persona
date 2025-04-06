@@ -11,4 +11,5 @@ Credits
 All fruit art is designed or sourced with love
 Sounds: royalty-free UI sounds (ding, pop)
 
-To play - http://127.0.0.1:5500/index.html
+To try it out- https://fruitpersona.github.io
+
