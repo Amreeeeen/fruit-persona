@@ -1,0 +1,124 @@
+body {
+    background-color: #fef6e4;
+    color: #5c4033;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #quiz-container {
+    width: 90%;
+    max-width: 500px;
+    background: #fff7e6;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  #chat {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .chat-bubble {
+    margin: 10px 0;
+    padding: 12px 16px;
+    border-radius: 20px;
+    max-width: 80%;
+    animation: fadeIn 0.6s ease;
+  }
+  
+  .bot {
+    background-color: #e7d9c1;
+    align-self: flex-start;
+  }
+  
+  .user {
+    background-color: #d0b49f;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  #input-container {
+    margin-top: 20px;
+  }
+  
+  #input-container button, #input-container input {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #e6ccb2;
+    color: #5c4033;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #input-container input {
+    width: 70%;
+  }
+  
+  #restartBtn {
+    margin-top: 15px;
+    display: none;
+    background-color: #d88c9a;
+    color: white;
+  }
+  
+  #result-screen.hidden {
+    display: none;
+  }
+  
+  #result-screen {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #result-screen img {
+    max-width: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  #shareBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #e6ccb2;
+    color: #5c4033;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  #shareBtn:hover {
+  margin-top: 15px;
+    display: none;
+    background-color: #d88c9a;
+    color: pink;
+  }
+  #result-screen {
+    text-align: center;
+    padding: 20px;
+  }
+  #result-img {
+    width: 180px;       /* increase size */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;    /* shows it's clickable */
+    transition: transform 0.2s ease;
+  }
+  
+  #result-img:hover {
+    transform: scale(1.05);
+  }
+  
